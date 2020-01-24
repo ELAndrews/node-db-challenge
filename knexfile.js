@@ -6,7 +6,7 @@ module.exports = {
     connection: {
       filename: "./data/project-tables"
     },
-    useNullableAsDefault: true,
+    useNullAsDefault: true,
     migrations: {
       directory: "./data/migrations"
     },
